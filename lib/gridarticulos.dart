@@ -38,6 +38,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Listado de Articulos"),
+          backgroundColor: Colors.cyan,
         ),
         body: GridView.builder(
           itemCount: images.length,
