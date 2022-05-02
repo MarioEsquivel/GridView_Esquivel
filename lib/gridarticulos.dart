@@ -40,8 +40,8 @@ class _PaginaInicialState extends State<PaginaInicial> {
           title: const Text("Listado de Articulos"),
           backgroundColor: Colors.cyan,
           actions: [
-            Icons.more_vert,
-            Icons.search,
+            const Icon(Icons.more_vert),
+            const Icon(Icons.search),
           ],
         ),
         body: GridView.builder(
