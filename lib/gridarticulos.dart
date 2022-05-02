@@ -37,7 +37,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Listado de Articulos"),
+          title: const Text("Listado de Articulos v2"),
           backgroundColor: Colors.cyan,
           actions: [
             const Icon(Icons.more_vert),
