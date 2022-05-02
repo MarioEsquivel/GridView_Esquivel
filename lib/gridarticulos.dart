@@ -39,6 +39,10 @@ class _PaginaInicialState extends State<PaginaInicial> {
         appBar: AppBar(
           title: const Text("Listado de Articulos"),
           backgroundColor: Colors.cyan,
+          actions: [
+            Icons.more_vert,
+            Icons.search,
+          ],
         ),
         body: GridView.builder(
           itemCount: images.length,
