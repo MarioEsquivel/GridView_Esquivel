@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:esquivel/gridarticulos.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(CibercafeApp());
 }
 
-class MyApp extends StatelessWidget {
+class CibercafeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.green,
         ), // Tema color global
-        home: const MyHomePage());
+        home: const PaginaInicial());
   }
 } // widget sin estado
